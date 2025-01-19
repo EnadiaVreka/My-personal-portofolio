@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    </head>
+<body>
+    <nav>
+        <ul>
+            
+            <li><a href="#home"><i class="fa fa-home"></i> Home</a></li>
+            <li><a href="#about"><i class="fa fa-user"></i> About Me</a></li>
+            <li><a href="#projects"><i class="fa fa-briefcase"></i> My Work</a></li>
+            <li><a href="#education"><i class="fa fa-graduation-cap"></i> Education</a></li>
+            <li><a href="#blog"><i class="fa fa-pencil"></i> Blog</a></li>
+            <li><a href="#contact"><i class="fa fa-envelope"></i> Contact</a></li>
+        </ul> 
+    </nav>
+
+
+    <div id="home">
+        <h1>Welcome to my portofolio</h1>
+        <p>Hi, my name is Enadia Vreka,im a begginer in programming but with a lot of passion to learn.Here you can explore my work and my experience!</p>
+    </div>
+        
+    
+
+    <div id="about">
+        <h2>~ About Me ~</h2>
+        <p>Hi, my name is Enadia Vreka,im a begginer in programming but with a lot of passion to learn. With the help of mt teachers i am learning more and more everyday.Currently i am focusing on front-end development and building interactive user interfaces.</p>
+        <p>I addition to web development, i enjoy learning about the latest trend in technology, and exploring new programming languages. I am excited to continue expanding my skills set and contribute to meaningul projects!</p>
+        <p><a href="CV.pdf" download class="cv-link">Download my CV</a></p>
+    </div>
+    
+    <div id="projects">
+        <h2>~ Projects ~ </h2>
+        <p>These are the projects i have currently completed. The first one in a to do list app, build with C# and Windows Forms. Wheras the other one is an online library build with HTML and CSS.You can explore the code that i have created for this project:</p>
+
+        <div class="project">
+            <h2>Project: To do list app</h2>
+            <p>This is my first project, it's a simple to do list app where you can add,modify or delete the tasks that you need to do throught the day.</p>
+            <img src="Todolist.png" alt="To do list app" width="470">
+        </div>
+
+        <div class="project">
+            <h2>Project: Enadia's book space</h2>
+            <p>This is my second project, it's a simple website page about an online library,there are a couple books which users can read.</p>
+            <img src="project1..png" alt="Enadia's book space website screenshot" width="470">
+        </div>
+    </div>
+        
+
+    <div id="education">
+        <h2>~ Education & Experience ~</h2>
+        <h1>Education:</h1>
+        <h2>High school degree:Gjimnazi Besnik Sykja</h2>
+        <h2>Degree: Bachelor in Computer Science</h2>
+        <p>University of Kolegji Universitar Beder,2024</p>
+    </div>
+
+
+    <div id="blog">
+        <h2>~ Blog ~</h2>
+        <p>In this blog, i want to share how i created my first personal portofolio.</p>
+        <p>Building a personal portfolio is a great way to showcase your skills, projects, and experience to potential employers or clients. Here’s a simple breakdown of how I created mine:<br>
+            <p>Planning the Portfolio</p>
+            
+            <p>The first step was to decide what my portfolio would include:</p>
+            <ol>
+                <li>Home: A brief introduction to me.</li>
+                <li>About Me: A section with my skills, experience, and a downloadable CV link.</li>
+                <li>Projects: Displaying my work, with descriptions and links.</li>
+                <li>Education & Experience: Sharing my background and work history.</li>
+                <li>A form for people to reach out to me.</li>
+                <li> A place to share technical articles and tutorials.</li>
+            </ol>
+            <br>
+            <p>Writing the HTML Code</p>
+            <p>I then built the structure for each page using HTML:</p>
+            <ol>
+                <li>Home: An introduction and navigation.</li>
+                <li>Home: An introduction and navigation.</li>
+                <li>Projects: Showcasing my work with links and descriptions.</li>
+                <li>Education & Experience: Detailing my education.</li>
+                <li>Contact: A simple contact form.</li>
+                <li>Blog: My first technical post.</li> 
+                
+            </ol><br>
+            <p>Styling with CSS</p>
+            <p>Using CSS, I made sure the site was responsive (looked good on mobile and desktop).</p>
+            <br>
+            <p>Conclusion</p>
+
+            <p>Creating a personal portfolio is a great way to showcase your work and make a strong impression. By following these simple steps, you can create a professional portfolio that highlights your skills and projects, helping you stand out in the tech world.This version is shorter, more straightforward, and easy to follow while still covering the key points.</p>
+           <img src= "portofoliopic.png" alt="Designin the portofolio"   width="200">
+
+    </div>
+
+    <div id="contact">
+        <h2>~ Contact ~ </h2>
+        <form action="https://formspree.io/f/mjkkqqyk" method="POST">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+          
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+          
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" required></textarea><br><br>
+          
+            <button type="submit">Send</button>
+          </form>
+    </div>
+
+    <footer>
+        <p>Copyright © 2024 Enadia Vreka — All Rights Reserved</p>
+    </footer>
+</body>
+</html>
